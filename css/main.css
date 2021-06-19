@@ -1,0 +1,78 @@
+body{background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+   
+section{margin-top:70px;}
+
+/**************************************************************************************/
+
+/*----header----*/
+    nav{background:black;}
+    
+    .search-container button {
+        background: dodgerblue;
+        border: none;
+        cursor: pointer;
+    }
+  
+  .search-container button:hover {
+    background: dodgerblue;
+  }
+
+
+/*---footer---*/    
+    footer {padding-top:50px;
+        padding-bottom:50px;
+        color:#fff;
+        background-color:#000;
+        }
+
+    footer .footer-icons-hover:hover{opacity:0.60}
+
+
+/********************************** HOMEPAGE ******************************************/
+
+/*---heading---*/
+    .container h2{text-align:center;
+        font-size:50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+/*---table & form ----*/
+    .t .table,.f{box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+
+    table th{font-size:20px;}
+
+
+/*---carousel-----*/
+    .carousel{box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 8px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            width:99%;
+        }
+
+    .carousel-item img{width:100%;height:450px;}
+
+    .carousel-item button{width:30%;
+        padding:10px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+
+    .carousel-item button a{text-decoration:none;
+                        color:white;
+                    }
+
+    .topContent .carousel-control-prev-icon, .topContent .carousel-control-next-icon {
+            width: 100px; height: 100px;
+            }
+
+
+/*---Card----*/
+    .card{box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        height:380px;width: 20rem;
+        background:linear-gradient(110deg, white 60%, lightblue 60%);
+        margin-bottom:50px}
+    
+    .card img{
+            width:150px;
+            margin: auto;
+        }
