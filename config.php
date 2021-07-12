@@ -1,9 +1,15 @@
 <?php
 	//Local Development Connection requirement
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "bank-system";
+	// $servername = "localhost";
+	// $username = "root";
+	// $password = "";
+	// $dbname = "bank-system";
+
+	//Remote database connection
+	$servername = "sql6.freemysqlhosting.net";
+	$username = "sql6424599";
+	$password = "BsQ5CdbIyr";
+	$dbname = "sql6424599";
 
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 
